@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/mAbout"
+    android:title="About"
+    android:orderInCategory="3"></item>
+    <item android:id="@+id/mFavorito"
+        android:title="Favorito"
+        android:orderInCategory="1"></item>
+    <item android:id="@+id/mVerificarCuenta"
+        android:title="CambiarCuenta"
+        android:orderInCategory="2"></item>
+    <item android:id="@+id/mtoken"
+        android:title="token"
+        android:orderInCategory="4"></item>
+</menu>

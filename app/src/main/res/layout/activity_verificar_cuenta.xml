@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.jesus.pets.verificarCuenta">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"></include>
+
+    <TextView
+        android:layout_below="@+id/miActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escriba su Cuenta"
+        android:id="@+id/tvVerificarCuenta"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edVerificarCuenta"
+        android:layout_below="@+id/tvVerificarCuenta"
+
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVerificarCuenta"
+        android:layout_below="@+id/edVerificarCuenta"
+        android:layout_centerHorizontal="true"
+        android:text="Verificar"
+        android:onClick="enviarid"/>
+</RelativeLayout>

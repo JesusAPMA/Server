@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nombre_pet">35dp</dimen>
+    <dimen name="icono_pet">20dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="ancho">200dp</dimen>
+    <dimen name="alto">200dp</dimen>
+    <dimen name="likes">20dp</dimen>
+</resources>

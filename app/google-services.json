@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "325406546174",
+    "firebase_url": "https://petagram-5228d.firebaseio.com",
+    "project_id": "petagram-5228d",
+    "storage_bucket": "petagram-5228d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325406546174:android:44fbc1da27d708a8",
+        "android_client_info": {
+          "package_name": "com.example.jesus.pets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325406546174-vtd7fnlfpg2lv1sgacc4b0as9n19po3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jesus.pets",
+            "certificate_hash": "BB6FE4724665BCF1FCCF43596228BDB4F35364E5"
+          }
+        },
+        {
+          "client_id": "325406546174-sfmou4o6duidums9h6ol696lqvof2eo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARmyGD_Vtb5RJkFy-PcT2J-pF0DsZUCb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325406546174-sfmou4o6duidums9h6ol696lqvof2eo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

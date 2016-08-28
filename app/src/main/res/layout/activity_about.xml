@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.jesus.pets.About">
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"></include>
+    <TextView
+        android:layout_below="@+id/miActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20dp"
+        android:textColor="@color/color_texto"
+
+        android:text="Mi nombre es Jesus y esta aplicación es una prueba sobre base de datos y aplicar material design"/>
+</RelativeLayout>
